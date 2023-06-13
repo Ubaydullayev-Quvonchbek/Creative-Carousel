@@ -32,7 +32,7 @@ img {
     position: relative;
 }
 
-.btn {
+button {
     background-color: darkblue;
     color: #fff;
     font-size: 25px;
@@ -45,7 +45,7 @@ img {
     bottom: -150px;
 }
 
-.btn:hover {
+button:hover {
     background-color: blue;
 }
 
