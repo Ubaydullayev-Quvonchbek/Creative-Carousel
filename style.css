@@ -9,7 +9,7 @@ body {
     background: silver;
 }
 
-.container {
+.images {
     width: 250px;
     height: 150px;
     transform: perspective(1000px) rotateY(0deg);
@@ -24,7 +24,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    transform: rotateY(calc(var(--0) * 45deg)) translateZ(400px);
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
 }
 
 .buttons {
