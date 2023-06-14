@@ -1,15 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 80vh;
-    background: silver;
+    height: 100vh;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(45deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 .images {
+    display: block;
+    margin: auto;
+    margin-top: 300px;
     width: 250px;
     height: 150px;
     transform: perspective(1000px) rotateY(0deg);
@@ -25,11 +35,14 @@ img {
     top: 0;
     left: 0;
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    box-shadow: 0px 0px 15px #000;
 }
 
 .buttons {
     width: 80%;
     position: relative;
+    margin: auto;
+    margin-bottom: 200px;
 }
 
 button {

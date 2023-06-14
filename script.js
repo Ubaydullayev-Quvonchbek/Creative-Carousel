@@ -1,5 +1,5 @@
 let i = 0
-const Container = document.querySelector('.container')
+const Container = document.querySelector('.images')
 const Prev = document.querySelector('.Prev')
 const Next = document.querySelector('.Next')
 Prev.onclick = () => {
